@@ -6,9 +6,9 @@ import {default as LeftList} from '../scenes/Homepage/ThirdRow/LeftList/LeftList
 import {default as CenterList} from '../scenes/Homepage/ThirdRow/CenterList/CenterList.duck';
 import {default as RightList} from '../scenes/Homepage/ThirdRow/RightList/RightList.duck';
 import {default as TopBooks} from '../scenes/Homepage/TopBooks/TopBooks.duck';
+import {default as BookDetailContent} from '../scenes/BookDetail/BookDetailContent/BookDetailContent.duck';
 
 //console.log("import reducer test", RightColTopBooks);
-
 
 const rootReducer = combineReducers({
     cart : cart,
@@ -18,6 +18,7 @@ const rootReducer = combineReducers({
     Homepage_ThirdRow_CenterList : CenterList,
     Homepage_ThirdRow_RightList : RightList,
     Homepage_TopBooks : TopBooks,
+    BookDetail_Content : BookDetailContent,
 });
 
 export default rootReducer;
