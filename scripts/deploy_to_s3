@@ -1,0 +1,23 @@
+#!/bin/bash
+
+AWS_BUCKET=$1
+AWS_PROFILE=$2
+
+echo ""
+echo "You are about to deploy"
+echo "     ./build"
+echo ""
+echo "To this AWS S3 bucket:"
+echo "     $AWS_BUCKET"
+echo ""
+echo "Using this AWS Profile:"
+echo "     $AWS_PROFILE"
+echo ""
+echo "Does this look correct? (y/N)"
+read YESORNO;
+
+if [ "$YESORNO" = "y" -o "$YESORNO" = "Y" ]
+then
+  aws s3 sync ./build s3://$AWS_BUCKET --include '*' --profile $AWS_PROFILE
+  #aws s3 sync ./src s3://$AWS_BUCKET --exclude '*' --include 'images*' --include '*.webpack.min.js' --include '*.html' --profile $AWS_PROFILE
+fi

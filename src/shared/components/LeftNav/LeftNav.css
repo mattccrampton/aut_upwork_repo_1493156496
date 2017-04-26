@@ -1,0 +1,29 @@
+
+#Homepage-LeftNav{
+}
+
+  #Homepage-LeftNav #SBL_logo{
+    width:300px;
+    margin-bottom:20px;
+  }
+  
+  #Homepage-LeftNav #navPanel a{
+    font-weight:bold;
+  }
+  
+  #Homepage-LeftNav .leftColDescription{
+    font-size:21px;
+    color:#262a55;
+    padding:10px 0 10px 10px;
+    text-align: justify-all;
+    width: 100%;
+  }
+  
+  #Homepage-LeftNav .panel-heading > strong{
+  	white-space: nowrap;
+  }
+  #Homepage-LeftNav #mailing_list_signup label{
+  	margin-bottom:10px;
+  }
+
+

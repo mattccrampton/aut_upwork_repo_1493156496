@@ -1,0 +1,14 @@
+.placeholderBooklist{
+  color:#eee;
+}
+.placeholderBooklistImage{
+  border:1px solid #eee;
+  border-radius:4px;
+  padding:4px;
+}
+.placeholderBooklistImageInner{
+  width:47px;
+  height:75px;
+  background-color:#eee;
+}
+

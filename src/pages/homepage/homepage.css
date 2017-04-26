@@ -1,0 +1,54 @@
+
+
+#homepageContainer{
+}
+
+#navPanel a{
+  font-weight:bold;
+}
+
+.leftColDescription{
+  font-size:21px;
+  color:#262a55;
+  padding:10px 0 10px 10px;
+  text-align: justify-all;
+  width: 100%;
+}
+
+.featured_media_image{
+  max-height: 143px;
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .featured_media_image{
+    max-height: 249px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .featured_media_image{
+    max-height: 280px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .featured_media_image{
+    max-height: 305px;
+  }
+}
+
+
+.panel-heading > strong{
+	white-space: nowrap;
+}
+#mailing_list_signup label{
+	margin-bottom:10px;
+}
+
+.latest_book_thumbnail{
+	max-height:150px;
+}
+.latest_book_text{
+}
